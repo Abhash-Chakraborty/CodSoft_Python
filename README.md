@@ -3,6 +3,6 @@ Welcome to the repository containing my solutions for the "Python Programming In
 
 ## Task - 1
 ### Features:
-* Task Management: Create, update, and track your tasks efficiently.
-* User-Friendly Interface: Easy-to-use interface for seamless task management.
-* Python Implementation: Developed entirely using Python programming language.
+* **Task Management :** Create, update, and track your tasks efficiently.
+* **User-Friendly Interface :** Easy-to-use interface for seamless task management.
+* **Python Implementation :** Developed entirely using Python programming language.
