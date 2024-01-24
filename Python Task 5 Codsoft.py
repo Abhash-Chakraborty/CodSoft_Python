@@ -1,9 +1,9 @@
-#PythonGeeks - import library
+#import library
 from tkinter import *
 from tkinter import messagebox
 from tkinter import simpledialog
 
-#PythonGeeks address book - Initialize window
+#address book - Initialize window
 root = Tk()
 root.geometry('700x550')
 root.config(bg = '#d3f3f5')
@@ -14,7 +14,7 @@ contactlist = []
 Name = StringVar()
 Number = StringVar()
 
-#PythonGeeks - create frame
+#create frame
 frame = Frame(root)
 frame.pack(side = RIGHT)
  
@@ -24,14 +24,14 @@ scroll.config(command=select.yview)
 scroll.pack(side=RIGHT, fill=Y)
 select.pack(side=LEFT,  fill=BOTH, expand=1)
 
-#PythonGeeks - function to get select value
+#function to get select value
 def Selected():
     if len(select.curselection())==0:
         messagebox.showerror("Error", "Please Select the Name")
     else:
         return int(select.curselection()[0])
     
-#PythonGeeks - fun to add new contact
+#fun to add new contact
 def AddContact():
     if Name.get()!="" and Number.get()!="":
         contactlist.append([Name.get(), Number.get()])
@@ -81,7 +81,7 @@ def Select_set():
     for name, phone in contactlist:
         select.insert(END, name)
 
-# PythonGeeks - define buttons labels and entry widget
+#define buttons labels and entry widget
 Label(root, text='Name', font=("Times new roman", 22, "bold"), bg='SlateGray3').place(x=30, y=20)
 Entry(root, textvariable=Name, width=30).place(x=200, y=30)
 Label(root, text='Contact No.', font=("Times new roman", 20, "bold"), bg='SlateGray3').place(x=30, y=70)
