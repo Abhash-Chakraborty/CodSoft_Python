@@ -38,3 +38,12 @@ Welcome to the repository containing my solutions for the **"Python Programming 
 * **Update Contact :** Allow users to update contact details as needed.
 * **Delete Contact :** Provide a user-friendly option to delete contacts effortlessly.
 * **User Interface :** Design an intuitive and visually appealing interface for a seamless user experience.
+
+## Task - 6 : Simple Notepad
+### Features
+* **File Management :** Create, save, and manage text files effortlessly.
+* **Home Page :** A dedicated page to display all saved files with options to create or open files.
+* **File Editing :** Edit content in a text editor with a ribbon menu for Save and Close options.
+* **Temporary Saving :** Store file content temporarily to prevent data loss during editing.
+* **User Interface :** An intuitive and visually appealing interface for managing and editing files seamlessly.
+* **Python Implementation :** Developed entirely using Python programming language and Tkinter for GUI.
